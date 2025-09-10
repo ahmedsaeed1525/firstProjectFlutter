@@ -13,6 +13,8 @@
     "react-dom": "^18",
     "next": "14.2.5",
     "firebase": "^10.12.3",
+    "zustand": "^4.5.4",
+    "@stripe/stripe-js": "^4.1.0",
     "@react-three/fiber": "^8.16.8",
     "@react-three/drei": "^9.108.3",
     "three": "^0.166.1"
