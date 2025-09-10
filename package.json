@@ -12,7 +12,8 @@
     "dev": "npm run dev --workspace=apps/web",
     "build": "npm run build --workspace=apps/web",
     "test": "npm test --workspaces --if-present",
-    "lint": "npm run lint --workspaces --if-present"
+    "lint": "npm run lint --workspaces --if-present",
+    "seed:products": "npm run seed:products --workspace=tools"
   },
   "devDependencies": {
     "typescript": "^5.0.0",
