@@ -1,0 +1,21 @@
+{
+  "name": "3d-bazaar-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Monorepo for 3D Bazaar, a full-stack e-commerce platform.",
+  "author": "Jules, AI Engineer",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace=apps/web",
+    "build": "npm run build --workspace=apps/web",
+    "test": "npm test --workspaces --if-present",
+    "lint": "npm run lint --workspaces --if-present"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "prettier": "^3.0.0"
+  }
+}
